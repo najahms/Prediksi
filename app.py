@@ -51,10 +51,10 @@ with tab1:
     st.markdown("- **Kelas Jalan**: Kategori akses jalan.")
     
     st.subheader("Penjelasan Kelas Jalan")
-    st.info("- **Arteri** : Jalan utama 2 arah, volume kendaraan tinggi, biasanya terhubung ke pusat kota. **Paling strategis** → harga lebih tinggi.
+    st.info("""- **Arteri** : Jalan utama 2 arah, volume kendaraan tinggi, biasanya terhubung ke pusat kota. **Paling strategis** → harga lebih tinggi.
 - **Kolektor** : Jalan penghubung antar wilayah, lebih kecil dari arteri. **Cukup strategis**.
 - **Lokal** : Jalan lingkungan pemukiman. **Kurang strategis** → harga cenderung lebih rendah.
-- **Setapak** : Gang kecil, akses terbatas. **Paling rendah** pengaruhnya terhadap harga.")
+- **Setapak** : Gang kecil, akses terbatas. **Paling rendah** pengaruhnya terhadap harga.""")
     
     st.subheader("Evaluasi Model")
     st.write("- **R² (Koefisien Determinasi) : 0.7405** → Model menjelaskan 74% variasi harga tanah.")
